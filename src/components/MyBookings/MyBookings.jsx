@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import Navbar from "../Navbar/Navbar";
-import Page from "../page";
+import Page from "../Page";
 import { Calendar, Pencil, Trash } from "lucide-react";
 import { getAllBookings } from "../../backend/showAllBookings";
 import { deleteBooking } from "../../backend/deleteBookings";
