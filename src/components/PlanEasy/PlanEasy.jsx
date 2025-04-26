@@ -2,12 +2,12 @@ import React from "react";
 import plan from "../../assets/planEasy.jpeg";
 function PlanEasy() {
   return (
-    <div className="flex flex-col md:flex-row w-full">
-      <div className="md:w-1/3 w-full">
+    <div className="flex flex-col lg:flex-row w-full">
+      <div className="lg:w-1/3 w-11/12">
         <img src={plan} alt="Plan" />
       </div>
       <div className="w-full md:w-2/3">
-        <h1 className="text-5xl font-mono font-bold p-4 mt-8">
+        <h1 className="lg:text-5xl text-3xl font-mono font-bold p-4 mt-8">
           Book easy, Pay less & <br />
           Experience more
         </h1>
