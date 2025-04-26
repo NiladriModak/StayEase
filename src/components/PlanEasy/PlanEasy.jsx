@@ -7,7 +7,7 @@ function PlanEasy() {
         <img src={plan} alt="Plan" />
       </div>
       <div className="w-full md:w-2/3">
-        <h1 className="lg:text-5xl text-3xl font-mono font-bold p-4 mt-8">
+        <h1 className="lg:text-5xl text-3xl text-center font-mono font-bold p-4 mt-8">
           Book easy, Pay less & <br />
           Experience more
         </h1>

@@ -52,7 +52,7 @@ export default function UpdateModal({ open, setOpen, edit, refreshBookings }) {
       await editBooking(edit.id, {
         name,
         email,
-        checkInDate: checkInDate.toDate(), // Saving as Firestore Timestamp
+        checkInDate: checkInDate.toDate(),
         checkOutDate: checkOutDate.toDate(),
       });
       await refreshBookings();

@@ -34,7 +34,6 @@ function WeDo() {
         </h1>
       </div>
 
-      {/* Section 1 - Mountains */}
       <div className="flex flex-col md:flex-row items-center shadow-2xl shadow-slate-400 rounded-2xl p-6 gap-6 mb-12">
         <div className="flex-1 flex flex-col gap-4">
           <span className="text-2xl md:text-4xl font-semibold text-slate-950 font-mono">
@@ -60,7 +59,6 @@ function WeDo() {
         </div>
       </div>
 
-      {/* Section 2 - North India */}
       <div className="flex flex-col-reverse md:flex-row items-center rounded-2xl p-6 gap-6 mb-12">
         <div className="flex-1 relative w-full">
           <img
@@ -86,7 +84,6 @@ function WeDo() {
         </div>
       </div>
 
-      {/* Section 3 - South India */}
       <div className="flex flex-col md:flex-row items-center shadow-2xl shadow-slate-400 rounded-2xl p-6 gap-6">
         <div className="flex-1 flex flex-col gap-4">
           <span className="text-2xl md:text-4xl font-semibold text-slate-950 font-mono">

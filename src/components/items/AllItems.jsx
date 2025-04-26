@@ -66,24 +66,24 @@ function AllItems() {
     slidesToScroll: 1,
     responsive: [
       {
-        breakpoint: 1280, // less than xl
+        breakpoint: 1280,
         settings: {
           slidesToShow: 2,
           centerMode: true,
         },
       },
       {
-        breakpoint: 1024, // less than lg
+        breakpoint: 1024,
         settings: {
           slidesToShow: 1,
           centerMode: true,
         },
       },
       {
-        breakpoint: 640, // small screens like mobile
+        breakpoint: 640,
         settings: {
           slidesToShow: 1,
-          centerMode: false, // remove centering in small screens
+          centerMode: false,
         },
       },
     ],

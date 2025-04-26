@@ -40,7 +40,7 @@ function SignUpPage() {
         variant="outlined"
         sx={{
           margin: "1vmax",
-          input: { color: "white" }, // input text color
+          input: { color: "white" },
           "& .MuiOutlinedInput-root": {
             "& fieldset": {
               borderColor: "white",
@@ -62,7 +62,7 @@ function SignUpPage() {
         variant="outlined"
         sx={{
           margin: "1vmax",
-          input: { color: "white" }, // input text color
+          input: { color: "white" },
           "& .MuiOutlinedInput-root": {
             "& fieldset": {
               borderColor: "white",
