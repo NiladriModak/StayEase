@@ -31,11 +31,14 @@ export default function BookModal({ open, setOpen, destName, url }) {
       toast.error("Please enter valid date");
       return;
     }
+    const adjustedCheckIn = checkInDate.hour(12).minute(0).second(0);
+    const adjustedCheckOut = checkOutDate.hour(12).minute(0).second(0);
     await createBookings(
       name,
       email,
-      checkInDate.toDate(),
-      checkOutDate.toDate(),
+      adjustedCheckIn.toDate(),
+
+      adjustedCheckOut.toDate(),
       destName,
       url
     );

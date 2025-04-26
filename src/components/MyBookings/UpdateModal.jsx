@@ -49,11 +49,14 @@ export default function UpdateModal({ open, setOpen, edit, refreshBookings }) {
     }
 
     try {
+      const adjustedCheckIn = checkInDate.hour(12).minute(0).second(0);
+      const adjustedCheckOut = checkOutDate.hour(12).minute(0).second(0);
+
       await editBooking(edit.id, {
         name,
         email,
-        checkInDate: checkInDate.toDate(),
-        checkOutDate: checkOutDate.toDate(),
+        checkInDate: adjustedCheckIn.toDate(),
+        checkOutDate: adjustedCheckOut.toDate(),
       });
       await refreshBookings();
       setOpen(false);
